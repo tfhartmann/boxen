@@ -4,4 +4,5 @@ class fasrc::environment {
    include hipchat
    include chrome
    include iterm2::stable
+   include spotify
 }
