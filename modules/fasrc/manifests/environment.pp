@@ -3,4 +3,5 @@ class fasrc::environment {
    include vagrant
    include hipchat
    include chrome
+   include iterm2::stable
 }
