@@ -7,4 +7,5 @@ class fasrc::environment {
    include iterm2::stable
    include spotify
    include textmate
+   include googledrive
 }
