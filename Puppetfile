@@ -57,3 +57,4 @@ github "xquartz",     "1.1.1"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 github "vagrant",     "3.0.6"
+github "hipchat",     "1.1.0"
