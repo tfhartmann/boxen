@@ -5,4 +5,5 @@ class fasrc::environment {
    include chrome
    include iterm2::stable
    include spotify
+   include textmate
 }
