@@ -1,6 +1,8 @@
 class fasrc::environment {
    include virtualbox
-   include vagrant
+   class { 'vagrant':
+     version => '1.8.1'
+     }
    include hipchat
    include chrome
    include firefox
