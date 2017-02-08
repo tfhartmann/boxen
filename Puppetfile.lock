@@ -9,19 +9,9 @@ GITHUBTARBALL
     brewcask (0.0.7)
 
 GITHUBTARBALL
-  remote: boxen/puppet-chrome
-  specs:
-    chrome (1.1.2)
-
-GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
     dnsmasq (2.0.2)
-
-GITHUBTARBALL
-  remote: boxen/puppet-firefox
-  specs:
-    firefox (1.1.8)
 
 GITHUBTARBALL
   remote: boxen/puppet-foreman
@@ -31,7 +21,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-gcc
   specs:
-    gcc (3.0.2)
+    gcc (3.0.3)
 
 GITHUBTARBALL
   remote: boxen/puppet-git
@@ -44,16 +34,6 @@ GITHUBTARBALL
     go (2.1.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-googledrive
-  specs:
-    googledrive (1.0.2)
-
-GITHUBTARBALL
-  remote: boxen/puppet-hipchat
-  specs:
-    hipchat (1.1.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-homebrew
   specs:
     homebrew (2.1.0)
@@ -62,11 +42,6 @@ GITHUBTARBALL
   remote: boxen/puppet-hub
   specs:
     hub (1.4.4)
-
-GITHUBTARBALL
-  remote: boxen/puppet-iterm2
-  specs:
-    iterm2 (1.0.7)
 
 GITHUBTARBALL
   remote: boxen/puppet-nginx
@@ -104,29 +79,9 @@ GITHUBTARBALL
     ruby (8.5.4)
 
 GITHUBTARBALL
-  remote: boxen/puppet-spotify
-  specs:
-    spotify (1.0.1)
-
-GITHUBTARBALL
   remote: boxen/puppet-sudo
   specs:
     sudo (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-textmate
-  specs:
-    textmate (1.1.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-vagrant
-  specs:
-    vagrant (3.3.4)
-
-GITHUBTARBALL
-  remote: boxen/puppet-virtualbox
-  specs:
-    virtualbox (1.0.11)
 
 GITHUBTARBALL
   remote: boxen/puppet-xquartz
@@ -153,13 +108,12 @@ DEPENDENCIES
   brewcask (= 0.0.7)
   dnsmasq (= 2.0.2)
   foreman (= 1.2.0)
-  gcc (= 3.0.2)
+  gcc (= 3.0.3)
   git (= 2.10.0)
   go (= 2.1.0)
   homebrew (= 2.1.0)
   hub (= 1.4.4)
   inifile (= 1.4.1)
-  iterm2 (= 1.0.7)
   module_data (= 0.0.4)
   nginx (= 1.7.0)
   nodejs (= 5.0.8)
@@ -168,10 +122,7 @@ DEPENDENCIES
   pkgconfig (= 1.0.0)
   repository (= 2.4.1)
   ruby (= 8.5.4)
-  spotify (= 1.0.1)
   stdlib (= 4.7.0)
   sudo (= 1.0.0)
-  textmate (= 1.1.0)
-  vagrant (= 3.3.4)
-  virtualbox (= 1.0.11)
   xquartz (= 1.2.1)
+

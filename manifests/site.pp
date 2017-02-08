@@ -87,5 +87,5 @@ node default {
     ensure => link,
     target => $boxen::config::repodir
   }
-  include fasrc::environment
+  #include fasrc::environment
 }
